@@ -1,0 +1,16 @@
+!SESSION 2020-11-10 19:52:23.316 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -data /var/www/html -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-11-10 19:54:52.091
+!MESSAGE An internal error occurred during: "Inspecting location /var/www".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.php.internal.ui.importer.PHPProjectConfigurator.findConfigurableLocations(PHPProjectConfigurator.java:44)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:677)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:853)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
