@@ -32,6 +32,7 @@ echo 'Dados Salvos com sucesso!';
 {
     throw new Exception($e);
     exit();
+    
 }
 
 
